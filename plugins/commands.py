@@ -1009,7 +1009,7 @@ async def onshortlink(bot, message):
     # ENABLE_SHORTLINK = True
     return await message.reply_text("Successfully enabled shortlink")
 
-@Client.on_message(filters.command("shortlink_info")& filters.user(ADMINS)))
+@Client.on_message(filters.command("shortlink_info")& filters.user(ADMINS))
 async def showshortlink(bot, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
