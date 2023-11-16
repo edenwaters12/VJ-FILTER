@@ -949,7 +949,7 @@ async def deletemultiplefiles(bot, message):
         parse_mode=enums.ParseMode.HTML
     )
 
-@Client.on_message(filters.command("shortlink")& filters.user(ADMINS)))
+@Client.on_message(filters.command("shortlink")& filters.user(ADMINS))
 async def shortlink(bot, message):
     userid = message.from_user.id if message.from_user else None
     if not userid:
