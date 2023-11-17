@@ -1273,7 +1273,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             print(e)  # print the error message
             await query.answer(f"☣something went wrong sweetheart\n\n{e}", show_alert=True)
             return
-    # don't change anything without contacting me @creatorrio
+   
 
     elif query.data == "reqinfo":
         await query.answer(text=script.REQINFO, show_alert=True)

@@ -671,7 +671,7 @@ async def send_all(bot, userid, files, ident, chat_id, user_name, query):
                                 InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                                 InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                             ],[
-                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/creatorrio")
+                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/Doffice_bots")
                                 ]
                             ]
                         )
@@ -684,7 +684,7 @@ async def send_all(bot, userid, files, ident, chat_id, user_name, query):
         await query.answer('Hᴇʏ, Sᴛᴀʀᴛ Bᴏᴛ Fɪʀsᴛ Aɴᴅ Cʟɪᴄᴋ Sᴇɴᴅ Aʟʟ', show_alert=True)
         
 async def get_cap(settings, remaining_seconds, files, query, total_results, search):
-    # Aᴅᴅᴇᴅ Bʏ @creatorrio
+    # Aᴅᴅᴇᴅ Bʏ @Doffice_bots
     if settings["imdb"]:
         IMDB_CAP = temp.IMDB_CAP.get(query.from_user.id)
         if IMDB_CAP:
