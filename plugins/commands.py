@@ -25,14 +25,11 @@ async def start(client, message):
         buttons =[[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('✪ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/doffice_bots"),
-                    InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/d_movie_office')
+                    InlineKeyboardButton('🦋 Mᴏᴠɪᴇ Gʀᴏᴜᴘ🦋', url=CHNL_LNK),
+                    InlineKeyboardButton('✨ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋  ✨', url="https://t.me/doffice_bots")
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
-                ],[
-                    
-                    InlineKeyboardButton('〄 Settings', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('👻 Settings 〄', callback_data='help'),
+                    InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about')
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply(script.START_TXT.format(message.from_user.mention if message.from_user else message.chat.title, temp.U_NAME, temp.B_NAME), reply_markup=reply_markup, disable_web_page_preview=True)
@@ -49,17 +46,17 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('✪ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/doffice_bots"),
-                    InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/d_movie_office')
+                    InlineKeyboardButton('🦋 Mᴏᴠɪᴇ Gʀᴏᴜᴘ🦋', url=CHNL_LNK),
+                    InlineKeyboardButton('✨ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋  ✨', url="https://t.me/doffice_bots")
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
-                ],[
-                    
-                    InlineKeyboardButton('〄 Settings', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('👻 Settings 〄', callback_data='help'),
+                    InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about')
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgUAAxkBAAEJ4GtkyPgEzpIUC_DSmirN6eFWp4KInAACsQoAAoHSSFYub2D15dGHfy8E") 
+        m=await message.reply_text("👀")
+        await asyncio.sleep(1)
+        await m.delete()
+        m=await message.reply_sticker("CAACAgIAAxkBAAEBX4RlH6KWlmN63-NAKmqJrDfX_qB1DgACVAADQbVWDGq3-McIjQH6HgQ") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
@@ -100,14 +97,11 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('✪ Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/doffice_bots"),
-                    InlineKeyboardButton('⌬ Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/d_movie_office')
+                    InlineKeyboardButton('🦋 Mᴏᴠɪᴇ Gʀᴏᴜᴘ🦋', url=CHNL_LNK),
+                    InlineKeyboardButton('✨ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋  ✨', url="https://t.me/doffice_bots")
                 ],[
-                    InlineKeyboardButton('✇ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ✇', url=CHNL_LNK)
-                ],[
-                    
-                    InlineKeyboardButton('〄 Settings', callback_data='help'),
-                    InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about')
+                    InlineKeyboardButton('👻 Settings 〄', callback_data='help'),
+                    InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about')
                 ]]
         reply_markup = InlineKeyboardMarkup(buttons)      
         await message.reply_photo(
