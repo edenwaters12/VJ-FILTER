@@ -179,6 +179,7 @@ Nᴀᴍᴇ - {}
 🫵 Select Your Language And Earn Money 💰"""
 
     REQINFO = """
+
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
 
 ᴀꜰᴛᴇʀ 5 ᴍɪɴᴜᴛᴇꜱ ᴛʜɪꜱ ᴍᴇꜱꜱᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ᴅᴇʟᴇᴛᴇᴅ
@@ -233,7 +234,9 @@ IMDb Data:
 
 ⏰Result Shown in: {remaining_seconds} <i>seconds</i> 🔥
 
-Requested by : {message.from_user.mention}</b>"""
+Requested by : {message.from_user.mention}</b>
+Power by     :-<b> @doffice_bots</b>
+"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
