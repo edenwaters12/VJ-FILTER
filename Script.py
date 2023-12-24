@@ -134,12 +134,12 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
 Aᴅᴅᴇᴅ Bʏ - {}
-@Doffice_Robot"""
+@d_office_Robot"""
 
     LOG_TEXT_P = """#NewUser
 ID - <code>{}</code>
 Nᴀᴍᴇ - {}
-@Doffice_Robot
+@d_office_Robot
 """
 
     ALRT_TXT = """ʜᴇʟʟᴏ {},
@@ -223,7 +223,7 @@ Power by     :-<b> @doffice_bots</b>"""
     
     🔘<i> size - {file_size}</i>
     
-    <b>╭─── • ❰ @Doffice_Robot❱ ❱ • ────➤
+    <b>╭─── • ❰ @d_office_Robot❱ ❱ • ────➤
     ┣ ▫️ @Doffice_Bots 
     ┣ ▫️ @D_Movie_office </b>
     ╰─────── • ◆ • ───────➤
@@ -445,7 +445,7 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 ⏰ Tɪᴍᴇ : <code>{}</code>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>
-Bot :-@Doffice_Robot """
+Bot :-@d_office_Robot """
 
     LOGO = """
 
@@ -694,7 +694,7 @@ Also your tutorial will be Added Your Group..."""
 
 
     DEVELOPER_TXT = """
-special Thanks To ❤️ Developers -
+special Thanks To ❤️ Developers - @doffice_bots
 
 -Dev 1 [Owner of this bot ]<a href='https://t.me/doffice_bots'>D office  🇮🇳</a>
 """
